@@ -34,8 +34,6 @@ def lexical(tirage,words):
                 
     return(solution)
 
-final = lexical(['b', 'p', 'd', 'w', 's', 'y', 'w', 'i'],['bis', 'bd','wsibpa','bisi']) 
-print('Le mot le plus long pouvant être écris avec les lettres du tirage est', final)
 
 #Exercice 3 
 
@@ -74,11 +72,8 @@ def high_score(tirage,words):
             solution = word
     return (solution,max)
 
-highestscore = high_score(['a', 'r', 'b', 'g', 'e', 's', 'c', 'j'],available_words)
-print((highestscore))
 
 #the result here is ('jacasser', 17)
-
 
 
 #I don't truly understand if we have the authorization to use the same letter more than once in one word
@@ -100,8 +95,8 @@ def high_score(tirage,words):
             solution = word
     return (solution,max)
 
-highestscore = high_score(['a', 'r', 'b', 'g', 'e', 's', 'c', 'j'],available_words)
-print((highestscore))
+#highestscore = high_score(['a', 'r', 'b', 'g', 'e', 's', 'c', 'j'],available_words)
+#print((highestscore))
 
 #the result here is ('jaser', 12)
 
@@ -122,7 +117,7 @@ def joker(tirage,words):
             bestscore = score
     return (solution, bestscore)
 
-jokerword = joker(['x', 'z', 'c', 'v', 'r', 'r', 't','?'],available_words)
-print(jokerword)
+#jokerword = joker(['x', 'z', 'c', 'v', 'r', 'r', 't','?'],available_words)
+#print(jokerword)
 
 #return ('czar',15) like in the exercice
